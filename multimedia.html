@@ -7,6 +7,10 @@
     <meta name="author" conent="Daniel Martins">
     <meta name="description" content="Website sobre Utrecht">
     <meta name="keywords" content="palavras chave">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+      </style>
 </head>
 
 <body>
@@ -20,19 +24,51 @@
     <br>
 
     <nav>
-        <b><a href="index.html">Introdução</a></b>
-        <a href="local.html">Localização</a>
-        <a href="multimedia.html">Multimédia</a>
-        <a href="info.html">Informação</a>
+        <a href="index.html">🏠 Introdução</a>
+        <a href="local.html">🗺️ Localização</a>
+        <b><a href="multimedia.html">🎬 Multimédia</a></b>
+        <a href="info.html">🔎 Informação</a>
+        <a href="quizz.html">🤔 Quizz</a>
+        <a href="html5-css.html">🤷 HTML e CSS</a>
     </nav>
 
     <main>
         <h2>Multimédia</h2>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/eK00Pt_HAOo" title="YouTube video player"
+        <nav>
+            <a href="#fotografias">Fotografias</a>
+            <a href="#video">Video</a>
+            <a href="#poema">Poema</a>
+        </nav>
+        <br>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/eK00Pt_HAOo" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
+
+        <section>
+            <h3 id="fotografias">Fotografias</h3>
+            <p><a href="images/nieuwegracht_grande.jpg" target="foto"><img src="images/nieuwegracht_pequena.jpg" alt="Nieuwegracht"></a>
+                <a href="images/utrecht-centraal_grande.jpg" target="foto"><img src="images/utrecht-centraal_pequena.jpg" alt="Utrecht centraal"></a>
+                <a href="images/utrecht-uithof_grande.jpg" target="foto"><img src="images/utrecht-uithof_pequena.jpg" alt="Utrecht uithof"></a>
+            </p>
+
+            <figure><iframe src="images/nieuwegracht_grande.jpg" name="foto" width="600" height="400"></iframe></figure>
+        </section>
+
+        <section>
+            <h3 id="poema">Poema</h3>
+            <p>Lorem ipsum<br>
+            dolor sit amet,<br>
+            consectetur adipiscing elit,<br>
+            sed do eiusmod<br>
+            tempor incididunt ut labore<br>
+            et dolore magna aliqua.<br>
+            <br>
+            Ut enim ad minim veniam,<br>
+            quis nostrud exercitation<br>
+            ullamco laboris nisi ut aliquip<br>
+            ex ea commodo consequat.</p>
+        </section>
     </main>
 
     <footer style="text-align: center;">

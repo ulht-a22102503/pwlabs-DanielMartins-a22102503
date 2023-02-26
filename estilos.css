@@ -1,0 +1,60 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    background-color: antiquewhite;
+}
+
+footer {
+    color:white;
+    background-color: deeppink;
+}
+
+.pepega{
+    color: purple;
+    background-color: aquamarine;
+}
+
+#fancy{
+    background-color: deeppink;
+}
+
+a[target=_self]{
+    color:blue;
+}
+
+div:hover{
+    background-color: darkorange;
+}
+
+h2::first-letter{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h3::first-letter{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+a:link{
+    color: #f7aef8;
+}
+
+a:visited{
+    color: #b388eb;
+}
+
+a:hover{
+    color: #8093f1;
+}
+
+a:active{
+    color: #72ddf7;
+}
+
+a::before{
+    content: "|- ";
+}
+
+a::after{
+    content: " -|";
+}
