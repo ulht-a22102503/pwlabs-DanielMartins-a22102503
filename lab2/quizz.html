@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Utrecht</title>
+    <meta charset="utf-8">
+    <meta name="author" conent="Daniel Martins">
+    <meta name="description" content="Website sobre Utrecht">
+    <meta name="keywords" content="palavras chave">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+      </style>
+</head>
+
+<body>
+    <header>
+        <h1>Utrecht</h1>
+        <figure>
+            <img src="/images/utrecht-main.jpg" alt="Utrecht">
+            <details>Aqui vê-se a Dom Tower of the St. Martin's Cathedral</details>
+        </figure>
+    </header>
+    <br>
+
+    <nav>
+        <a href="index.html">🏠 Introdução</a>
+        <a href="local.html">🗺️ Localização</a>
+        <a href="multimedia.html">🎬 Multimédia</a>
+        <a href="info.html">🔎 Informação</a>
+        <b><a href="quizz.html">🤔 Quizz</a></b>
+        <a href="html5-css.html">🤷 HTML e CSS</a>
+    </nav>
+
+    <main>
+        <section>
+            <h3>Quizz</h3>
+            <p>Nesta página será feito um quizz para testar se o utilizador conhece bem a cidade de Utrecht.</p>
+        </section>
+
+        <form method="POST" action="mailto: a22102503@alunos.ulht.pt" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Quizz sobre Utrecht</legend>
+                <fieldset style="background-color: #2F4858;">
+                    <p>Nome: <input type="text" name="nome" maxlength="30" autofocus pattern="^[a-zA-Z ]*"></p>
+                    <p>Apelido: <input type="text" name="apelido" maxlength="30"></p>
+                    <p>Email: <input type="email" name="email" placeholder="someone@example.com" autocomplete="off" size="50" required></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Perguntas</legend>
+                    <fieldset style="background-color: #493548;">
+                        <p>1. Qual a velocidade média do vento na cidade (em Km/h)?</p>
+                        <label>1 <input type="range" name="numrajadas" min="1" max="100"> 100</p>
+                    </fieldset>
+                    
+                    <fieldset style="background-color: #33658A;">
+                        <p>2. A torre da catedral de St. Martin tem a altura de:</p>
+                        <input type="radio" name="alturatorre" value="109m"><label>109m</label>
+                        <input type="radio" name="alturatorre" value="112m"><label>112m</label>
+                        <input type="radio" name="alturatorre" value="116m"><label>116m</label>
+                    </fieldset>
+
+                    <fieldset style="background-color: #F26419;">
+                        <p>3. A bandeira da cidade tem as cores:</p>
+                        <input type="color" name="alturatorre" value="109m"><label>109m</label>
+                        <p><input type="color" name="alturatorre" value="112m"><label>112m</label>
+                    </fieldset>
+
+                    <fieldset style="background-color: #86BBD8;">
+                        <p>4. quantos canais existem:</p>
+                        <p><input type="checkbox" name="4-cbk1"> ???</p>
+                        <p><input type="checkbox" name="4-cbk2"> ???</p>
+                    </fieldset>
+
+                    <fieldset style="background-color: #F6AE2D;">
+                        <p>5. Em que ano é que a cidade foi classificada como Cidade da Literatura pela UNESCO?:</p>
+                        <p><input type="date" name="5-date" ></p>
+                    </fieldset>
+
+                    <fieldset style="background-color: #A1E887;">
+                        <p>6. em que data foi ???:</p>
+                        <p><input type="number" name="6-date"> ???</p>
+                    </fieldset>
+
+                    <fieldset style="background-color: #6A8D92;">
+                        <p>7. imagem ???:</p>
+                        <p><input type="image" name="7-date" multiple> ???</p>
+                    </fieldset>
+
+                    <fieldset style="background-color: #A30000;">
+                        <p>8. pergunta surpresa:</p>
+                        <select name="cars" id="cars">
+                            <option value="volvo">Yes</option>
+                            <option value="saab">No</option>
+                            <option value="opel">Maybe</option>
+                          </select>
+                    </fieldset>
+
+                    <fieldset style="background-color: #00AFB5;">
+                        <p>9. O quarteirão com mais população é:</p>
+                        <input list="browsers" name="browser" id="browser">
+                        <datalist id="browsers">
+                            <option value="Binnenstad">
+                            <option value="Oost">
+                            <option value="Leidsche Rijn">
+                            <option value="West">
+                            <option value="Overvecht">
+                            <option value="Zuid">
+                            <option value="Noordoost">
+                            <option value="Zuidwest">
+                            <option value="Noordwest">
+                            <option value="Vleuten-De Meern">
+                        </datalist>
+                    </fieldset>
+
+                    <textarea name="comentario" rows="4" cols="50"></textarea>
+
+                    <input type="submit">
+                </fieldset>
+            </fieldset>
+        </form>
+
+
+    </main>
+    <footer style="text-align: center;">
+        Daniel Martins - a22102053
+        <br>
+        Universidade Lusófona de Humanidades e Tecnologias
+    </footer>
+</body>
+
+</html>
