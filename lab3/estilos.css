@@ -1,0 +1,42 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+    background-color: deeppink;
+    font-size: 48px;
+}
+
+.capitais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+    background-color: #9daaa9;
+    font-size: 48px;
+    flex-flow: row wrap;
+    align-content: baseline;
+}
+
+.capitais div {
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: space-evenly;
+    background-color: #b56e62;
+}
