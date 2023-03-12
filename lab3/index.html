@@ -2,19 +2,31 @@
 <html>
 
 <head>
-    <title>Utrecht</title>
+    <title>PW-Lab3 a22102503</title>
     <meta charset="utf-8">
     <meta name="author" conent="Daniel Martins">
     <meta name="description" content="PW-Lab3">
     <meta name="keywords" content="palavras chave">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="/lab3/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
     </style>
+
 </head>
 
 <body>
+    <header>
+        <div>
+            <h1 style="padding-left: 0.5vw; vertical-align: middle;">Osu! Gaming</h1>
+        </div>
+        <nav>
+            <a href="#capitais">Capitais</a>
+            <a href="#circles">Circles</a>
+            <a href="/lab3/grid-base.html">Grid</a>
+        </nav>
+    </header>
+
     <div class="flex-container">
         <p>Viajar</p>
     </div>
@@ -23,13 +35,13 @@
         <p style="position: absolute; top: 20px; left: 20px; font-size: 32px; color: white;"><b>Stunning</b></p>
     </div>
 
-    <div class="capitais">
+    <div class="capitais" id="capitais">
         <div>
             <div>
                 Bruxelas
             </div>
             <div>
-                <img src="images/bruxelas.avif">
+                <img src="/lab3/images/bruxelas.avif">
             </div>
         </div>
         <div>
@@ -37,7 +49,7 @@
                 Budapeste
             </div>
             <div>
-                <img src="images/budapeste.avif">
+                <img src="/lab3/images/budapeste.avif">
             </div>
         </div>
         <div>
@@ -45,7 +57,7 @@
                 Lisboa
             </div>
             <div>
-                <img src="images/lisboa.avif">
+                <img src="/lab3/images/lisboa.avif">
             </div>
         </div>
         <div>
@@ -53,7 +65,7 @@
                 Londres
             </div>
             <div>
-                <img src="images/londres.avif">
+                <img src="/lab3/images/londres.avif">
             </div>
         </div>
         <div>
@@ -61,7 +73,7 @@
                 Milão
             </div>
             <div>
-                <img src="images/milao.avif">
+                <img src="/lab3/images/milao.avif">
             </div>
         </div>
         <div>
@@ -69,7 +81,7 @@
                 Paris
             </div>
             <div>
-                <img src="images/paris.avif">
+                <img src="/lab3/images/paris.avif">
             </div>
         </div>
         <div>
@@ -77,7 +89,7 @@
                 Praga
             </div>
             <div>
-                <img src="images/praga.avif">
+                <img src="/lab3/images/praga.avif">
             </div>
         </div>
         <div>
@@ -85,7 +97,7 @@
                 Reykiavik
             </div>
             <div>
-                <img src="images/reykiavik.avif">
+                <img src="/lab3/images/reykiavik.avif">
             </div>
         </div>
         <div>
@@ -93,7 +105,7 @@
                 Roma
             </div>
             <div>
-                <img src="images/roma.avif">
+                <img src="/lab3/images/roma.avif">
             </div>
         </div>
         <div>
@@ -101,7 +113,7 @@
                 Varsóvia
             </div>
             <div>
-                <img src="images/varsovia.avif">
+                <img src="/lab3/images/varsovia.avif">
             </div>
         </div>
         <div>
@@ -109,10 +121,39 @@
                 Viena
             </div>
             <div>
-                <img src="images/viena.avif">
+                <img src="/lab3/images/viena.avif">
             </div>
         </div>
     </div>
+
+    <div id="circles"
+        style="display: flex; flex-flow: row wrap; justify-content: space-evenly; padding: 2vw; background-color: #e7ede2;">
+        <div class="circles" style="background-color: #eb403e;">
+            <img src="https://cdn.7tv.app/emote/60a3050fac2bcb20ef20fd9a/4x.webp">
+        </div>
+        <div class="circles" style="background-color: #fba115;">
+            <p>click</p>
+        </div>
+        <div class="circles" style="background-color: #20dbd3;">
+            <p>the</p>
+        </div>
+        <div class="circles" style="background-color: #fba115;">
+            <p>circles</p>
+        </div>
+        <div class="circles" style="background-color: #eb403e;">
+            <img src="https://cdn.7tv.app/emote/60a3050fac2bcb20ef20fd9a/4x.webp">
+        </div>
+        <div class="circles" style="background-color: #eb403e; font-size: 5vh;">
+            <a href="https://osu.ppy.sh/home"><i class="fa fa-globe"></i></a>
+        </div>
+        <div class="circles" id="hidden-circle" style="background-color: #eb403e; font-size: 5vh;">
+            <p>magic</p>
+        </div>
+        <div class="circles" style="background-color: #eb403e; font-size: 5vh;">
+            <a href="https://github.com/ppy/osu"><i class="fa fa-github"></i></a>
+        </div>
+    </div>
+    <img id="clipped-image" src="https://source.unsplash.com/MhIpSpzWdlI/" style="clip: rect(600px,650px,950px,350px);">
 </body>
 
 </html>
