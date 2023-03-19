@@ -18,25 +18,25 @@ header {
     text-align: left;
     display: flex;
     justify-content: space-between;
-  }
+}
 
-  header nav {
-    display:flex;
-    justify-content: flex-end;  
+header nav {
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
-  }
+}
 
-  nav a {
+nav a {
     padding: 20px;
     text-decoration: none;
     font-size: 1rem;
     color: lightgray;
-  }
+}
 
-  a:hover{
+a:hover {
     background-color: darkgray;
     font-weight: bold;
-  }
+}
 
 
 .flex-container {
@@ -85,11 +85,11 @@ header {
 
 #clipped-image {
     position: absolute;
-    clip: rect(600px,650px,950px,350px);
+    clip: rect(600px, 650px, 950px, 350px);
     display: none;
 }
 
-#hidden-circle{
+.hidden-circle:hover {
     color: blue;
     display: none;
 }
