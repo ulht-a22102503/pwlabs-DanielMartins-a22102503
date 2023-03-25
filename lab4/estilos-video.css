@@ -1,20 +1,22 @@
- * {
-     font-family: 'Poppins', sans-serif;
- }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
- #video {
-     position: fixed;
-     right: 0;
-     bottom: 0;
-     min-width: 100%;
-     min-height: 100%;
- }
+* {
+    font-family: 'Poppins', sans-serif;
+}
 
- .content {
-     position: fixed;
-     bottom: 0;
-     background: rgba(0, 0, 0, 0.5);
-     color: #f1f1f1;
-     width: 100vw;
-     padding: 20px;
- }
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100vw;
+    padding: 20px;
+}
